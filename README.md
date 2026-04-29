@@ -264,6 +264,6 @@ If Mozilla awards the $50K grant, the production roadmap is:
 
 ---
 
-**Built for MNKND STDUI + PARTNERS X Mozilla Foundation AIxD Incubator**  
+**Built for MNKND STUDIO + PARTNERS X Mozilla Foundation AIxD Incubator**  
 **Submission Date:** April 2026  
 **Election Day:** August 9, 2027
