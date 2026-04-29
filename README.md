@@ -7,39 +7,6 @@
 
 ---
 
-## Quick Start: GitHub Setup
-
-```bash
-# 1. Create new public repository on GitHub
-#    Name: kenya-2027-election-companion
-#    Visibility: Public
-#    Initialize with README
-
-# 2. Clone repository locally
-git clone https://github.com/mnknd/kenya-2027-election-companion.git
-cd kenya-2027-election-companion
-
-# 3. Add all 6 files to repository
-#    - 01-index.tsx
-#    - 02-voter-interface.tsx
-#    - 03-newsroom-dashboard.tsx
-#    - 04-civil-society-dashboard.tsx
-#    - 05-public-api-explorer.tsx
-#    - README.md (this file)
-
-# 4. Commit and push
-git add .
-git commit -m "4-persona Election Companion demo for Mozilla AIxD grant"
-git push origin main
-
-# 5. Paste GitHub URL into grant application Section C.3:
-#    https://github.com/mnknd/kenya-2027-election-companion
-```
-
-**Grant submission is now code-complete.**
-
----
-
 ## Overview
 
 Kenya 2027 Election Companion is a WhatsApp-native, AI-powered civic infrastructure platform that fact-checks election rumors in under 10 seconds, makes party manifestos conversationally accessible in English/Swahili/Sheng, tracks live verified results on election day, and surfaces emerging misinformation trends to civil-society partners 12–24 hours before they peak.
@@ -217,20 +184,6 @@ Civil Society activates intervention
 
 ---
 
-## Key Differentiators (vs Current Code)
-
-| Feature | Current Index.tsx | This 4-Persona Demo |
-|---------|-------------------|---------------------|
-| Personas | 1 (Generic chat) | 4 (Voter/Newsroom/Civil Society/API) |
-| Fact-checking | Generic Claude | 4-layer pipeline (RMS/IEBC/correspondents/editorial) |
-| Multilingual | None | English/Swahili/Sheng with toggle |
-| Editorial Layer | Missing | Complete workflow with two-editor sign-off |
-| Geographic Intelligence | Missing | County heatmaps, early-warning alerts |
-| Open Data | Missing | Public API with CC-BY 4.0 dataset |
-| Grant Credibility | 15-25% pass probability | 70-85% pass probability |
-
----
-
 ## Mozilla Grant Requirements Met
 
 ### **C.1 Technical Architecture ✅**
@@ -245,9 +198,9 @@ Civil Society activates intervention
 3. Practitioner report (month 12) — shown in API Explorer "Practitioner Report" card
 
 ### **C.3 Code Repository ✅**
-- GitHub URL: [Allan to paste public repo link in grant application]
-- All 4 personas visible to Mozilla reviewers
-- README with setup instructions and architecture
+- This repository contains all 4 personas for Mozilla reviewer evaluation
+- Complete architecture visible in code structure
+- README documentation included
 
 ### **C.4 Critical Dependencies ✅**
 - Royal Media Services integration (shown in Newsroom Dashboard)
@@ -264,7 +217,7 @@ Civil Society activates intervention
 This repository contains the complete 4-persona implementation described in the Mozilla Foundation AIxD Incubator grant application.
 
 **Grant Application Section C.3 (Code Repository):**
-- Repository URL: `https://github.com/mnknd/kenya-2027-election-companion`
+- Repository URL: `https://github.com/mnknd/kenya-election-companion`
 
 **What This Repository Demonstrates:**
 
@@ -291,7 +244,7 @@ If Mozilla awards the $50K grant, the production roadmap is:
 
 **Organization:** MNKND Limited  
 **Lead:** Allan Mwaniki  
-**Email:** almwaniki@gmail.com  
+**Email:** allan@mnknd.studio  
 **Location:** Nairobi, Kenya
 
 **Partners:**
